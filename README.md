@@ -12,7 +12,8 @@ This repository contains the major source code for our paper in [ECCV'24 CADL Wo
     <a><img src="paper/supp/webpage/static/images/teaser.png"  height="250" ></a>
     </br>
 </div>
-<p align="left">TL'DR: LightAvatar provides the proof-of-concept framework of employing *neural light field* (NeLF) to build photorealistic 3D head avatars. It takes 3DMM parameters and camera pose as input, renders the RGB via a single network forward, no need for mesh as input. Thanks to the dedicatedly designed NeLF network, LightAvatar can render 512x512 images at 174 FPS on a consumer-grade GPU (RTX3090) with stock deep learning framework.</p>
+<p>TL'DR: LightAvatar provides a proof-of-concept framework of employing <i>neural light field</i> (NeLF) to build photorealistic 3D head avatars. It takes 3DMM parameters and camera pose as input, and renders the RGB via a single network forward, no need for mesh as input. Thanks to the dedicatedly designed NeLF network, LightAvatar can render 512x512 images at 174 FPS on a consumer-grade GPU (RTX3090) with stock deep learning framework.
+</p>
 
 
 <p>
