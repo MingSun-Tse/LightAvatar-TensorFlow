@@ -7,15 +7,27 @@ This repository contains the major source code for our paper in [ECCV'24 CADL Wo
 > <sup>†</sup>Work done when [Huan](http://huanwang.tech/) was an intern at Google. \
 > Corresponding author: Huan Wang, huan.wang.cool@gmail.com.
 
-
+## TL'DR
 <div align="center">
     <a><img src="paper/supp/webpage/static/images/teaser.png"  height="250" ></a>
     </br>
 </div>
-<p>TL'DR: LightAvatar provides a proof-of-concept framework of employing <i>neural light field</i> (NeLF) to build photorealistic 3D head avatars. It takes 3DMM parameters and camera pose as input, and renders the RGB via a single network forward, no need for mesh as input. Thanks to the dedicatedly designed NeLF network, LightAvatar can render 512x512 images at 174 FPS on a consumer-grade GPU (RTX3090) with stock deep learning framework.
-</p>
+LightAvatar provides a proof-of-concept framework of employing <i>neural light field</i> (NeLF) to build photorealistic 3D head avatars. It takes 3DMM parameters and camera pose as input, and renders the RGB via a single network forward, no need for mesh as input. Thanks to the dedicatedly designed NeLF network, LightAvatar can render 512x512 images at <b>174 FPS</b> on a consumer-grade GPU (RTX3090) with stock deep learning framework.
 
 
-<p>
+
+## Code Content
 The code is based on TensorFlow. Due to Google IP issues, we are not able to release the complete code. Here we release the key code modules (model architecture and loss function) for refenrence. Should you have any questions about this work, welcome to raise an issue or contact Huan Wang (huan.wang.cool@gmail.com).
-</p>
+
+
+## Reference
+
+If our work or code helps you, please consider to cite our paper. Thank you!
+```BibTeX
+@inproceedings{wang2024lightavatar,
+  author = {Huan Wang and Feitong Tan and Ziqian Bai and Yinda Zhang and Shichen Liu and Qiangeng Xu and Menglei Chai and Anish Prabhu and Rohit Pandey Sean Fanello and Zeng Huang and Yun Fu},
+  title = {LightAvatar: Efficient Head Avatar as Dynamic Neural Light Field},
+  booktitle = {ECCV Workshop},
+  year = {2024}
+}
+```
