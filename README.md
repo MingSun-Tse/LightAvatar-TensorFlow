@@ -17,7 +17,7 @@ LightAvatar provides a proof-of-concept framework of employing <i>neural light f
 
 
 ## Code Content
-The code is based on TensorFlow. Due to Google IP issues, we are not able to release the complete code. Here we release the key code modules (model architecture and loss function) for refenrence. Should you have any questions about this work, welcome to raise an issue or contact Huan Wang (huan.wang.cool@gmail.com).
+The code is based on TensorFlow. Due to Google IP issues, we are not able to release the complete code. Here we release the key code modules (model architecture and loss function) for reference. Should you have any questions, welcome to raise an issue or contact Huan Wang (huan.wang.cool@gmail.com).
 
 
 ## Reference
