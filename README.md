@@ -25,7 +25,7 @@ The code is based on TensorFlow. Due to Google IP issues, we are not able to rel
 If our work or code helps you, please consider to cite our paper. Thank you!
 ```BibTeX
 @inproceedings{wang2024lightavatar,
-  author = {Huan Wang and Feitong Tan and Ziqian Bai and Yinda Zhang and Shichen Liu and Qiangeng Xu and Menglei Chai and Anish Prabhu and Rohit Pandey Sean Fanello and Zeng Huang and Yun Fu},
+  author = {Huan Wang and Feitong Tan and Ziqian Bai and Yinda Zhang and Shichen Liu and Qiangeng Xu and Menglei Chai and Anish Prabhu and Rohit Pandey and Sean Fanello and Zeng Huang and Yun Fu},
   title = {LightAvatar: Efficient Head Avatar as Dynamic Neural Light Field},
   booktitle = {ECCV Workshop},
   year = {2024}
